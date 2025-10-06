@@ -1,0 +1,45 @@
+timestamp,host,dns_ip,dns_ok,ping_sent,ping_recv,ping_loss_pct,ping_avg_rtt_ms,port,port_open,port_rtt_ms,traceroute_snippet
+2025-10-04T14:12:25.200166+00:00,google.com,142.250.77.142,True,3,3,0.0,9.0,80,True,36.29660606384277,"
+Tracing route to google.com [142.250.77.142]
+over a maximum of 20 hops:
+
+  1     9 ms     1 ms     2 ms  192.168.1.1 
+  2    33 ms     4 ms     2 ms  172.199.91.1 
+  3    28 ms     4 ms     4 ms  103.110.170.161 
+  4     9 ms    10 ms     *     72.14.209.244 
+  5    15 ms     9 ms    12 ms  216.239.43.133 
+  6    50 ms    13 ms    10 ms  142.251.55.63 
+  7    13 ms    15 ms    11 ms  lcmaaa-au-in...[truncated]"
+2025-10-04T14:12:25.200166+00:00,google.com,142.250.77.142,True,3,3,0.0,9.0,443,True,62.087059020996094,"
+Tracing route to google.com [142.250.77.142]
+over a maximum of 20 hops:
+
+  1     9 ms     1 ms     2 ms  192.168.1.1 
+  2    33 ms     4 ms     2 ms  172.199.91.1 
+  3    28 ms     4 ms     4 ms  103.110.170.161 
+  4     9 ms    10 ms     *     72.14.209.244 
+  5    15 ms     9 ms    12 ms  216.239.43.133 
+  6    50 ms    13 ms    10 ms  142.251.55.63 
+  7    13 ms    15 ms    11 ms  lcmaaa-au-in...[truncated]"
+2025-10-04T14:13:16.217238+00:00,8.8.8.8,8.8.8.8,True,3,3,0.0,11.0,80,False,2016.1840915679932,"
+Tracing route to dns.google [8.8.8.8]
+over a maximum of 20 hops:
+
+  1     1 ms     2 ms     2 ms  192.168.1.1 
+  2    33 ms     4 ms     4 ms  172.199.91.1 
+  3    37 ms    44 ms     5 ms  103.110.170.161 
+  4     *       13 ms     *     72.14.209.244 
+  5   222 ms    24 ms    12 ms  216.239.43.133 
+  6    40 ms    10 ms    10 ms  216.239.59.231 
+  7    12 ms    35 ms    13 ms  dns.google [8.8.8....[truncated]"
+2025-10-04T14:13:16.217238+00:00,8.8.8.8,8.8.8.8,True,3,3,0.0,11.0,443,True,32.095909118652344,"
+Tracing route to dns.google [8.8.8.8]
+over a maximum of 20 hops:
+
+  1     1 ms     2 ms     2 ms  192.168.1.1 
+  2    33 ms     4 ms     4 ms  172.199.91.1 
+  3    37 ms    44 ms     5 ms  103.110.170.161 
+  4     *       13 ms     *     72.14.209.244 
+  5   222 ms    24 ms    12 ms  216.239.43.133 
+  6    40 ms    10 ms    10 ms  216.239.59.231 
+  7    12 ms    35 ms    13 ms  dns.google [8.8.8....[truncated]"
